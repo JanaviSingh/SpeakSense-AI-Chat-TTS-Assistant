@@ -1,6 +1,5 @@
-streamlit 
-pyttsx3 
-gTTS 
-requests 
-python-dotenv 
-regex
+streamlit
+gTTS
+requests
+PyPDF2
+python-dotenv
