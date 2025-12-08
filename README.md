@@ -4,13 +4,13 @@
 
 **SpeakSense AI** is a robust technical assignment submission that integrates **Cloud-Based Text-to-Speech (TTS)** and **Generative AI (Mistral API)** into a unified web application.
 
-Designed for seamless deployment on **Streamlit Cloud**, this application features a "WhatsApp-style" chat interface, PDF document reading, and multi-accent speech synthesis without requiring local system audio drivers.
+Designed for seamless experience on **Streamlit Cloud**, this application features a "WhatsApp-style" chat interface, PDF document reading, and multi-accent speech synthesis without requiring local system audio drivers.
 
 ## 🚀 Key Features
 
 ### 1. Cloud-Compatible TTS Engine
 
-* **Universal Deployment:** Uses `gTTS` (Google TTS) to ensure the app works on any device or cloud server (Streamlit Cloud, Docker, Linux) without crashing.
+* **Universal Deployment:** Uses `gTTS` (Google TTS) to ensure the app works on any device.
 * **Document Reader:** Upload **PDF or TXT files** and convert them to audio instantly.
 * **Global Accents:** Supports multiple English accents (US, UK, India, Australia) plus French and Spanish.
 * **Download Support:** Users can download the generated speech as an **MP3 file** for offline listening.
@@ -86,15 +86,13 @@ Designed for seamless deployment on **Streamlit Cloud**, this application featur
 
 ### Tab 2: AI Chat
 
-1. **API Key:** Enter your Mistral API Key in the **Sidebar**.
-2. **Chat:** Type your message in the input bar (WhatsApp-style interface).
-3. **Listen:** Click the 🔊 speaker icon next to any AI response to hear it spoken aloud.
+1. **Chat:** Type your message in the input bar (WhatsApp-style interface).
+2. **Listen:** Click the 🔊 speaker icon next to any AI response to hear it spoken aloud.
 
 ---
 
 ## 🛡️ Robustness & Error Handling
 
-* **Cloud Stability:** Replaced `pyttsx3` with `gTTS` to eliminate "ModulenotFound" and audio driver errors on Linux servers.
 * **API Timeouts:** Handles Mistral API connection drops gracefully.
 * **Input Validation:** Prevents processing of empty text or corrupt files.
 
